@@ -36,7 +36,18 @@ function acessar() {
         dadoslista.splice(dadoslista[(i -1)],1);
     }
     //FUNÇÃO PARA EXCLUIR NOME 
-    function excluir(i){
+    function (i){
         dadoslista.splice((i  - 1), 1);
         document.getElementById('tabela').daleterow(i);
     }
+    function colorir(){
+    let days = document.getElementById('day').value;
+    
+
+
+
+    }function colorirData()
+        let days    = document.getElementById('day').value;
+        let color   = document.getElementById('color').value;
+        let calendar = document.getElementById('calendar');
+    
