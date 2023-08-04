@@ -30,7 +30,6 @@ function acessar() {
             document.getElementById('tabela').innerHTML = tabela; 
         }
     }
-    
     //FUNÇÃO PARA EDITAR NOME
     function editar(i){
         document.getElementById('nomeUser').value = dadoslita[(i - 1)];
