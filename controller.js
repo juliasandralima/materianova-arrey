@@ -41,9 +41,7 @@ function acessar() {
         document.getElementById('tabela').daleterow(i);
     }
     function colorir(){
-    let days = document.getElementById('day').value;
-    
-
+        let  let days    = document.getElementById('day').value;
 
 
     }function colorirData()
