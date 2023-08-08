@@ -23,7 +23,7 @@ function acessar() {
     }
     // função para criar lista de usário
     function criarLista(){
-        let tabela = document.getElementById('tabela').innerHTML =   "<tr><th>Nome Usuario</th><th>Ações</th></tr>";
+        let tabela = document.getElementById('tabela').innerHTML =   "<tr><th>tarefas</th><th>materias</th></tr>";
 
         for(let i = 0;i<= (dadoslista.length - 1);i++){
             tabela += "<tr><td>" + dadoslista[i] + "</td><td><button class='btn btn-success' onclick='editar(thais.paranNode.rowIndex)'>Editar</button><button class='btn btn-danger' onclick=''>Excluir</button></td></tr>";
